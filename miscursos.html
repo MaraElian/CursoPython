@@ -22,14 +22,12 @@
         <form id="formu">
             <h4>Agenda tus cursos</h4>
             <ul>
-            <li><input type="text" id="codigo" placeholder="Codigo del curso" class="field"></li>
+            <li><input type="number" id="clave" min="1" placeholder="N° de curso" class="field"></li>
             <li><select class="field" id="niveles">
-            <option value="in">Introducción al crochet</option>
-            <option value="pt">Patrones de tejido</option>
-            <option value="pr">Mi primer prenda</option>
+            <option value="intro">Introducción al crochet</option>
+            <option value="patrones">Patrones de tejido</option>
+            <option value="prenda">Mi primer prenda</option>
             </select></li>
-			<li><input type="submit" value="Validar" class="field" class="center"></li>
-			<li><input type="number" id="clave" min="1" placeholder="N° de curso" class="field"></li>
             <li><textarea id="resumen" class="field"  rows="3" placeholder="Resumen del curso"></textarea></li>
             <li><input type="date" class="field" id="fecha"></li>
             <li><input type="button" class="field" class="center" id="grabar" value="Guardar Curso"></li> 
@@ -57,7 +55,6 @@
 				 </figure>
 		</div>  
 	</footer>
-	<script type="text/javascript" src="js/validar.js"></script>
 	<script type="text/javascript" src="js/mcursos.js"></script>
 </body>
 </html>
