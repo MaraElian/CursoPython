@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>quienessomos</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+	<header>
+		</nav>
+		<nav id="botonera1">
+		<ul>
+			<li><a href="index1.html">Inicio</a></li>
+			<li><a href="quienessomos.html">Quienes Somos</a></li>
+			<li><a href="productos.html">Productos</a></li>
+			<li><a href="talleres.html">Talleres</a></li>
+			<li><a href="miscursos.html">Mis Cursos</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul>
+		</nav>
+		<nav id="botones">
+			<ul>
+				<li><a href="#" onclick="achicarTxt()">-</a></li>
+				<li><a href="#" onclick="agrandarTxt()">+</a></li>
+			</ul>
+		</nav>
+		<nav id="quienessomos">
+			<div id="info">
+	        <h1>Quienes Somos</h1>
+			<article id="cambiar_tam">
+	        <strong>Artesara</strong> nació como una necesidad de un espacio personal para exponer mi habilidad en el crochet. 
+				Mis primeros tejidos fueron para los integrantes de mi familia. Con la llegada de mis nietos mi pasion al tejido se empezó 
+				a potenciar, con saquitos, gorritos, mantitas y souvenirs para sus primeros años de vida. Asi comenzó mi emprendimiento.
+				 Hoy en día me dedico a crear, imaginar y diseñar articulos decorativos o de uso cotidiano, poniendole mucho amor y compromiso 
+				 a cada pieza para que sea única y original. Cada diseño será pensado para cada cliente en particular. No dudes en pedirnos el 
+				 tuyo.</article>	
+		</div>
+	</nav>
+	</header>
+	<section id="video">
+	<div id="multimedia">
+		<video src="videos/artesaravideo.mp4"  id="artesaravideo" poster="imagenes/fondovideo.jpg"></video>
+		<nav id="btn_video">
+			<ul>
+				<li><a href="#" id="repr" onclick = "reproducir()"><img src="iconos/icon_play.svg"></a></li>
+				<li><a href="#" id="retr" onclick = "saltar(-15)"><img src="iconos/icon_retro.svg"></a></li>
+				<li><a href="#" id="avan" onclick = "saltar(15)"><img src="iconos/icon_avan.svg"></a></li>
+				<li><a href="#" id="fren" onclick = "frenar()"><img src="iconos/icon_stop.svg"></a></li>
+			</ul>
+		</nav>
+	</div>
+	</section>
+	<footer>
+		<div id="datos">
+			<div>Nicomedes Castro 1025</div>
+			<div>Posadas - Misiones - 3300</div>
+			<div>Tel: (0376) 436 507</div>
+
+			<nav id="marca1"><strong>Artesara</strong></nav>
+		    <nav id="bajada1">diseño y tejido</nav>	
+
+			     <figure class="botoneraredes">
+				 <a title="face" href="https://www.facebook.com/Artesara-diseno-y-tejido-100895055592192/" target="_blank"><img src="imagenes/face.png" alt="Facebook" width="25%" height="auto"></a>
+				 <a title="instagram" href="https://www.instagram.com/artesaradisenoytejido/" target="_blank"><img src="imagenes/insta.png" alt="Instagram" width="25%" height="auto"></a>
+				 <a title="youtube" href="https://www.youtube.com/channel/UCUIK9WWq3nLBnBh62AyIDzQ/videos" target="_blank"><img src="imagenes/youtube.png" alt="Youtube" width="25%" height="auto"></a>
+				 </figure>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/controlador.js"></script>
+	<script type="text/javascript" src="js/redimensionar.js"></script>
+</body>
+</html>
